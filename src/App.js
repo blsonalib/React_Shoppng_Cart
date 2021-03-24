@@ -16,7 +16,7 @@ class App extends Component {
       sortProducts = (event) => {
         // impl
         const sort = event.target.value;
-        console.log(event.target.value);
+        // console.log(event.target.value);
         this.setState((state) => ({
           sort: sort,
           products: data.products
